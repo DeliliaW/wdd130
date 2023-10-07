@@ -1,0 +1,43 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #649597;
+}
+header {
+    background-color: #8E6758;
+}
+nav a: :hover {
+    background-color: white;
+}
+.book, .join {
+    #2E75B6
+}
+.book:hover, .join:hover {
+    background-color: white;
+}
+#background {
+   background-color: #2E75B6;
+}
+.msg {
+    background-color: black;
+}
+footer {
+    background-color: #8E6758;
+}
