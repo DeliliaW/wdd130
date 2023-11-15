@@ -1,0 +1,56 @@
+display
+#content {
+   max-width: 1600px;
+   margin: 0 auto;
+}
+header {
+   background-color: #7F563D;
+   text-align: center;
+}
+.logo {
+   display: inline-block;
+}
+.logo img {
+   max-width: 100px;
+}
+#company_name, #slogan {
+   color: #B5CD75;
+   font-family: "Lucida Calligraphy";
+}
+#company_name {
+   padding-top: 10px;
+}
+nav a {
+   text-align: center;
+   color: #E2EAB8;
+}
+#company {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home-title {
+   grid-column: 2/4;
+   text-align: center;
+   width: 200px;
+   color: #7F563D;
+}
+#company_description {
+   display: inline-block;
+   width: 600px;
+   text-align: left;
+   color:#7F563D;
+   grid-column: 2/4;
+}
+#my_picture {
+ grid-column: 4/5;
+}
+#my_name {
+  color:#7F563D;
+}
+#tree {
+padding-left: 600px;
+}
+footer {
+   background-color: #7F563D;
+   color: #B5CD75;
+}
