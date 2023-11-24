@@ -1,5 +1,4 @@
-
-/* #content {
+ /* #content {
    max-width: 1600px;
    margin: 0 auto;
 }
@@ -29,15 +28,13 @@ nav a {
 nav a:hover {
   color: white;
 }
-#company {
-   display: grid;
-   grid-template-columns: ;
-   grid-template-rows: 400px 400px 400px 400px;
-}
+#my_picture {
+   width: 15%;
+   margin: right;
+  }
 .home-title {
-   grid-column: ;
    width: 200px;
-   text-align: right;
+   text-align: center;
    color: #7F563D;
 }
 #company_description {
@@ -45,19 +42,12 @@ nav a:hover {
    width: 600px;
    text-align: left;
    color:#7F563D;
-   grid-column: 3/5;
-}
-#my_picture {
- grid-column: 5/6;
- padding-left: 50px;
 }
 #my_name {
   color:#7F563D;
-  grid-column: 5/6;
   padding-left: 100px;
 }
 #tree {
-   grid-column: 3/4;
 }
 footer {
    background-color: #7F563D;
