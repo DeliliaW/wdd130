@@ -1,5 +1,5 @@
 
-#content {
+/* #content {
    max-width: 1600px;
    margin: 0 auto;
 }
@@ -23,13 +23,19 @@ header {
 nav a {
    text-align: center;
    color: #E2EAB8;
+   text-decoration: none;
+   padding: 35px;  
+}
+nav a:hover {
+  color: white;
 }
 #company {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: ;
+   grid-template-rows: 400px 400px 400px 400px;
 }
 .home-title {
-   grid-column: 3/4;
+   grid-column: ;
    width: 200px;
    text-align: right;
    color: #7F563D;
@@ -60,4 +66,4 @@ footer {
 footer p {
    padding-top: 20px;
    padding-left: 20px;
-}
+} */
