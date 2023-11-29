@@ -19,24 +19,35 @@ header {
 #company_name {
    padding-top: 10px;
 }
-nav a {
+.topnav {
+   background-color: #B3815B;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   display: block;
    color: #E2EAB8;
+   text-align: center;
+   padding: 14px 16px;
    text-decoration: none;
-   display: inline;
-   padding: 30px;
+   font-size: 17px;
+   border-bottom: 3px solid transparent;
 }
-nav a:hover {
-  color: white;
+.topnav a:hover {
+   color: white;
+   border-bottom: 5px solid #7F563D;
 }
-body  {
-background-color: #E2EAB8;
+body {
+   background-color: #E2EAB8;
 }
 #my_picture {
    width: 13%;
    display: block;
    margin-left: auto;
    margin-top: -15%;
-   padding-right: 3%;
+   margin-right: 3%;
+   border: 7px solid #B5CD75;
   }
 .home-title {
    width: 200px;
@@ -61,15 +72,55 @@ background-color: #E2EAB8;
    display: block;
    margin: 0 auto;
    padding-top: 5%;
+   margin-bottom: 5%;
 }
 #services {
    width: 350px;
    margin: 0 auto;
-   padding-top: 5%;
+   padding-top: 2%;
    padding-bottom: 2%;;
    text-align: center;
    color: #7F563D;
    font-size: 1.3em;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+.page2-title {
+   text-align: center;
+}
+#my_background {
+   width: 1000px;
+   margin: 0% auto;
+   font-size: 1.2em;
+   border: 5px solid red;
+}
+#gallery1 {
+margin-left: 250px;
+margin-top: 30px;
+display:inline-block;
+border: 7px solid #B5CD75;
+background-color: beige;
+}
+#Grandma_Baker_name {
+   margin:0 auto;
+}
+#gallery2 {
+   display: inline-block;
+   margin-left: 1040px;
+   margin-top: -450px;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#Grandma_Brackner_name {
+   margin: 0 auto;
+}
+#fun {
+width: 450px;
+margin: 0 auto;
+margin-top: 40px;
+font-size: 1.2em;
+border: 7px solid #B5CD75;
+background-color: beige;
 }
 footer {
    background-color: #7F563D;
