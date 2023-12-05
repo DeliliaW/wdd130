@@ -42,7 +42,7 @@ body {
    background-color: #E2EAB8;
 }
 #my_picture {
-   width: 13%;
+   max-width: 13%;
    display: block;
    margin-left: auto;
    margin-top: -15%;
@@ -50,32 +50,32 @@ body {
    border: 7px solid #B5CD75;
   }
 .home-title {
-   width: 200px;
+   max-width: 200px;
    margin: 0 auto;
    padding-top: 5%;
    text-align: center;
    color: #7F563D;
 }
 #company_description {
-   width: 700px;
+max-width: 700px;
    margin: 0 auto;
    color:#7F563D;
    font-size: 1.3em;
 }
 #my_name {
   color:#7F563D;
-  width: 13%;
+  max-width: 13%;
   margin-left: auto;
 }
 #tree {
-   width: 400px;
+   max-width: 400px;
    display: block;
    margin: 0 auto;
    padding-top: 5%;
    margin-bottom: 5%;
 }
 #services {
-   width: 350px;
+   max-width: 350px;
    margin: 0 auto;
    padding-top: 2%;
    padding-bottom: 2%;;
@@ -212,3 +212,4 @@ footer a {
 footer a:hover {
    color: white;
  }
+ 
