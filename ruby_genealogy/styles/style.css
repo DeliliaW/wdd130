@@ -149,10 +149,11 @@ body {
    margin: 0 auto;
    padding-top: 80px;
 }
-#Services {
+#services {
    grid-column: 1/4;
    margin: 0 auto;
    max-width: 900px;
+   height:auto;
    padding-top: 10px;
    font-size: 1.2em;
    text-align: center;
@@ -161,6 +162,7 @@ body {
    grid-column: 1/4;
    margin: 0 auto;
    max-width: 900px;
+   height: auto;
    padding-top: 10px;
    font-size: 1.2em;
    text-align: center;
@@ -169,6 +171,7 @@ body {
    grid-column: 1/4;
    margin: 0 auto;
    max-width: 900px;
+   height: auto;
    padding-top: 10px;
    font-size: 1.2em;
    text-align: center; 
