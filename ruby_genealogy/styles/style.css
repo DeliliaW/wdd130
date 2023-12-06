@@ -57,7 +57,7 @@ body {
    color: #7F563D;
 }
 #company_description {
-max-width: 700px;
+   max-width: 700px;
    margin: 0 auto;
    color:#7F563D;
    font-size: 1.3em;
@@ -91,27 +91,29 @@ max-width: 700px;
    grid-template-rows: 2fr 1fr 1fr;
 }
 .page2-title {
-  grid-column:1/4;
-  grid-row: 1/2;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 80px;
+   grid-column:1/4;
+   grid-row: 1/2;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 80px;
 }
 #my_background {
-  grid-column: 1/4;
-  grid-row: 1/2;
-  max-width: 900px;
-  padding-top: 200px;
-  margin: 0 auto;
+   grid-column: 1/4;
+   grid-row: 1/2;
+   max-width: 900px;
+   padding-top: 200px;
+   margin: 0 auto;
    font-size: 1.2em;
 }
 #gallery1 {
-grid-column: 1/2;
-grid-row: 2/3;
-margin-left: 300px;
-margin-top: 50px;
-border: 7px solid #B5CD75;
-background-color: beige;
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin-left: 300px;
+   margin-top: 50px;
+   max-width: 100%;
+   height: auto;
+   border: 7px solid #B5CD75;
+   background-color: beige;
 }
 #Grandma_Baker_name {
    margin:0 auto;
@@ -119,8 +121,10 @@ background-color: beige;
 #gallery2 {
    grid-column: 3/4;
    grid-row: 2/3;
-margin-right: 300px;
+   margin-right: 300px;
    margin-top: 50px;
+   max-width: 100%;
+   height: auto;
    border: 7px solid #B5CD75;
    background-color: beige;
 }
@@ -129,10 +133,10 @@ margin-right: 300px;
 }
 #fun {
    width: 550px;
-margin: 0 auto;
-font-size: 1.2em;
-border: 7px solid #B5CD75;
-background-color: beige;
+   margin: 0 auto;
+   font-size: 1.2em;
+   border: 7px solid #B5CD75;
+   background-color: beige;
 }
 #fee_list {
    display: grid;
@@ -152,7 +156,7 @@ background-color: beige;
    font-size: 1.2em;
    text-align: center;
 }
-#Plan {
+#plan {
    grid-column: 1/4;
    margin: 0 auto;
    max-width: 900px;
@@ -160,7 +164,7 @@ background-color: beige;
    font-size: 1.2em;
    text-align: center;
 }
-#Report {
+#report {
    grid-column: 1/4;
    margin: 0 auto;
    max-width: 900px;
@@ -172,6 +176,8 @@ background-color: beige;
    grid-column: 1/2;
    display: inline-block;
    margin-left: 70px;
+   max-width: 100%;
+   height: auto;
    border: 7px solid #B5CD75;
    background-color: beige;
 }
@@ -185,9 +191,11 @@ background-color: beige;
 #historical_image_2 {
    grid-column: 3/4;
    display: inline-block;
+   margin-left: 300px;
+   max-width: 100%;
+   height: auto;
    border: 7px solid #B5CD75;
    background-color: beige;
-   margin-left: 130px;
 }
 #Randolph_County_census {
    margin: 0 auto;
