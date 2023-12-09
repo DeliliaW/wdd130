@@ -120,6 +120,8 @@ body {
    background-color: beige;
 }
 #Grandma_Baker_name {
+   grid-column: 1/2;
+   grid-row: 2/3;
    margin:0 auto;
 }
 #gallery2 {
@@ -261,7 +263,6 @@ footer a:hover {
      padding-top: 10%;
      padding-bottom: 10%;
      font-size: 1em;
-     border: none;
    }
    #my_name {
      max-width: 30%;
@@ -270,12 +271,13 @@ footer a:hover {
    #gallery1 {
      margin-left: 0;
      margin-right: 0;
-     border: none;
+     background-color: none;
+
    }
    #gallery2 {
      margin-left: 0;
      margin-right: 0;
-     border: none;
+     background-color: none;
    }
    #fun {
       width: 100%;
@@ -292,13 +294,12 @@ footer a:hover {
    #historical_image {
       margin-left: 0;
       margin-right: 0;
-      border: none;
    }
    #historical_image_2 {
       margin-left: 0;
-      margin-right: 0;
-      border: none;
+      margin-right: 0;  
    }
    #examples {
       margin-left: 0;
    }
+}
