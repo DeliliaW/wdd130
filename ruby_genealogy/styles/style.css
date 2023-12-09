@@ -270,10 +270,12 @@ footer a:hover {
    #gallery1 {
      margin-left: 0;
      margin-right: 0;
+     border: none;
    }
    #gallery2 {
      margin-left: 0;
      margin-right: 0;
+     border: none;
    }
    #fun {
       width: 100%;
@@ -290,10 +292,12 @@ footer a:hover {
    #historical_image {
       margin-left: 0;
       margin-right: 0;
+      border: none;
    }
    #historical_image_2 {
       margin-left: 0;
       margin-right: 0;
+      border: none;
    }
    #examples {
       margin-left: 0;
