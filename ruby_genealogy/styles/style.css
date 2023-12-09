@@ -268,6 +268,10 @@ footer a:hover {
      max-width: 30%;
      margin-left: 35%;
    }
+   #my_background {
+      margin-left: 0;
+      margin-right: 0;
+   }
    #gallery1 {
      margin-left: 0;
      margin-right: 0;
