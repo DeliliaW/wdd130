@@ -276,12 +276,13 @@ footer a:hover {
      margin-left: 0;
      margin-right: 0;
      background-color: none;
-
+     border: none;
    }
    #gallery2 {
      margin-left: 0;
      margin-right: 0;
      background-color: none;
+     border: none;
    }
    #fun {
       width: 100%;
