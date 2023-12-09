@@ -226,4 +226,17 @@ footer a {
 footer a:hover {
    color: white;
  }
- 
+ @media screen and (max-width: 900px) {
+   #introduction, #fee_list {
+      display: block;
+      height: auto;
+   }
+   .topnav, footer {
+      flex-direction: column;
+   }
+   #gallery_1, #gallery_2,
+   #historical_image,
+   #historical_image_2 {
+     max-width: 300px; 
+   }
+}
