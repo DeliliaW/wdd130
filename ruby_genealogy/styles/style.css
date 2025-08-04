@@ -27,7 +27,7 @@ header {
 .topnav a {
    float: left;
    display: block;
-   color: #E2EAB8;
+   color: #eff7c3;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -39,7 +39,7 @@ header {
    border-bottom: 5px solid #7F563D;
 }
 body {
-   background-color: #E2EAB8;
+   background-color: #f6ffca;
 }
 #my_picture {
    max-width: 13%;
