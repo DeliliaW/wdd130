@@ -5,7 +5,7 @@
 header {
    background-color: #7F563D;
    text-align: center;
-   border-radius: 10%;
+   border-radius: 10px;
 }
 .logo {
    display: inline-block;
@@ -46,9 +46,10 @@ body {
    max-width: 13%;
    display: block;
    margin-left: auto;
-   margin-top: -15%;
-   margin-right: 3%;
+   margin-top: -13%;
+   margin-right: 5%;
    border: 7px solid #B5CD75;
+   border-radius: 50%;
   }
 .home-title {
    max-width: 200px;
@@ -67,6 +68,7 @@ body {
   color:#7F563D;
   max-width: 13%;
   margin-left: auto;
+  margin-right: 1%;
 }
 #tree {
    max-width: 400px;
@@ -85,6 +87,7 @@ body {
    font-size: 1.3em;
    border: 7px solid #B5CD75;
    background-color: beige;
+   border-radius: 10px;
 }
 #introduction {
    display: grid;
@@ -135,6 +138,7 @@ body {
    border: 7px solid #B5CD75;
    background-color: beige;
 }
+
 #Grandma_Brackner_name {
    margin: 0 auto;
 }
@@ -220,6 +224,7 @@ footer {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   border-radius: 10px;
 }
 footer p {
    padding-top: 20px;
