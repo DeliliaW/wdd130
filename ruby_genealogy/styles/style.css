@@ -39,7 +39,7 @@ header {
    border-bottom: 5px solid #7F563D;
 }
 body {
-   background-color: #fffcef .7;
+   background-color: #fffcef;
 }
 #my_picture {
    max-width: 13%;
@@ -108,6 +108,7 @@ body {
    margin: 0 auto;
    font-size: 1.2em;
 }
+
 #gallery1 {
    grid-column: 1/2;
    grid-row: 2/3;
@@ -136,6 +137,11 @@ body {
 #Grandma_Brackner_name {
    margin: 0 auto;
 }
+
+#gallery1 #gallery2 {
+  box-sizing: border-box;
+} 
+
 #fun {
    width: 550px;
    margin: 0 auto;
