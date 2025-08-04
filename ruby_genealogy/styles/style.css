@@ -139,10 +139,6 @@ body {
    margin: 0 auto;
 }
 
-#gallery1 #gallery2 {
-  object-fit: cover;
-} 
-
 #fun {
    width: 550px;
    margin: 0 auto;
